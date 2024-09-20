@@ -1,5 +1,5 @@
 header {
-    margin: 3px;
+    margin: 30px;
     /*border: black 1px solid;*/
 }
 
@@ -10,7 +10,6 @@ h1 {
 }
 
 main {
-    margin-top: 30px;
     /*border: black 1px solid;*/
     display: flex;
     flex-direction: row;
@@ -18,14 +17,14 @@ main {
 }
 
 div {
-    margin: 3px;
+    margin: 0 60px;
     /*border: red 1px solid;*/
     display: flex;
     flex-direction: column;
 }
 
 button {
-    margin: 10px 60px;
-    padding: 5px;
-    border-radius: 5px;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 10px;
 }
