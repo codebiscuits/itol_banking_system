@@ -46,3 +46,6 @@ withdrawButtonB.onclick = function () {
     let amount = window.prompt("How much to withdraw?", "0");
     bs.withdraw(amount);
 }
+
+document.getElementById("aliceTitle").innerHTML = `${aj.firstName}'s Account`
+document.getElementById("bobTitle").innerHTML = `${bs.firstName}'s Account`
