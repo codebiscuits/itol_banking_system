@@ -12,13 +12,13 @@ export class bankAccount {
     }
 
     deposit(amount) {
-        this.balance += amount;
+        this.balance += Number(amount);
         console.log("Deposit successful!");
     }
 
     withdraw(amount) {
         if (amount < this.balance) {
-            this.balance -= amount;
+            this.balance -= Number(amount);
             console.log("Withdrawal successful!");
         } else {
             console.log("Not enough balance to withdraw " + amount);
