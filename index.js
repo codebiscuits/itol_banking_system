@@ -49,3 +49,6 @@ withdrawButtonB.onclick = function () {
 
 document.getElementById("aliceTitle").innerHTML = `${aj.firstName}'s Account`
 document.getElementById("bobTitle").innerHTML = `${bs.firstName}'s Account`
+
+console.log(aj)
+console.log(bs)
