@@ -1,10 +1,8 @@
 export class bankAccount {
-    constructor(firstName, lastName, number) {
+    constructor(number, name, initBal) {
         this.accountNumber = number;
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.accountHolder = (firstName + lastName)
-        this.balance = 0;
+        this.accountHolder = name;
+        this.balance = initBal;
     }
 
     checkBalance() {

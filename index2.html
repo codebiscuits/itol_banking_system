@@ -1,0 +1,42 @@
+<!doctype="html">
+<html>
+
+    <head>
+
+        <link rel="stylesheet" href="style2.css">
+
+    </head>
+
+    <body>
+
+        <div id="container">
+
+            <h1>Banking System</h1>
+
+            <label for="holder">Account Holder Name:</label>
+            <input type="text" name="holder" id="holder" placeholder="Enter name"></input>
+
+            <label for="initial-balance">Initial Balance:</label>
+            <input type="text" name="initial-balance" id="initial-balance" placeholder="Enter Initial Balance"></input>
+
+            <button type="button" id="create-button" onclick="createAccount()">Create Account</button>
+
+            <label for="account-number">Account Number:</label>
+            <input type="text" name="account-number" id="account-number" placeholder="Enter Account Number"></input>
+
+            <label for="amount">Amount:</label>
+            <input type="text" name="amount" id="amount" placeholder="Enter Amount"></input>
+
+            <button type="button" id="deposit-button" onclick="deposit()">Deposit</button>
+            <button type="button" id="withdraw-button" onclick="withdraw()">Withdraw</button>
+            <button type="button" id="balance-button" onclick="checkBal()">Check Balance</button>
+
+            <div id="display"></div>
+
+        </div>
+
+    <script src="script.js"></script>
+
+    </body>
+
+</html>
